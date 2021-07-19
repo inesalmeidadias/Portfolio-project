@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --default-font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font: var(--default-font-family);
+}
+#headshot {
+  height: 600px;
+}

@@ -1,10 +1,27 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --default-font-family: "Poppins", sans-serif;
+  --primary-color: #000000;
+  --secondary-color: #ffde34;
+  --third-color: #405ff4;
+}
+body {
+  font-family: "Poppins", sans-serif;
 }
 a {
   text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+.hero h2 {
+  font-size: 24px;
+}
+.emoji-wave {
+  font-size: 50px;
 }
 
 .about-section {
@@ -17,7 +34,6 @@ a {
 }
 .about-section h2 {
   font-size: 18px;
-  font: var(--default-font-family);
 }
 #headshot {
   height: 600px;

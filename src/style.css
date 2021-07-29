@@ -40,17 +40,33 @@ img {
 .about-section h2 {
   font-size: 18px;
 }
-#headshot {
-  height: 600px;
+.headshot {
+  height: 440px;
+  padding: 50px;
+  margin-top: 140px;
 }
 
 .img-fluid {
   min-width: 100%;
   height: auto;
 }
-@media (max-width: 900px) {
+
+p {
+  text-align: justify;
+  line-height: 2;
+}
+@media (max-width: 1000px) {
   .project-section {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 50px;
+  }
+  .headshot {
+    height: 400px;
+    padding: 0px;
+    margin-top: 50px;
   }
 }

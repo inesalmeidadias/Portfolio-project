@@ -6,32 +6,60 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-a {
-  text-decoration: none;
+.nav {
+  padding: 30px 0px;
 }
-
-.hero {
-  text-align: center;
-  margin-top: 100px;
-}
-.hero h1 {
-  font-size: 60px;
-}
-.hero h2 {
-  font-size: 24px;
+h1 {
+  font-size: 50px;
+  font-weight: 600;
 }
 .emoji-wave {
   font-size: 50px;
 }
-.project-section {
-  margin-top: 100px;
+.work-situation {
+  color: rgba(0, 0, 0, 0.55);
+  margin: 0px;
 }
-img {
-  border-radius: 25px;
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.55);
+}
+a:hover {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  color: var(--primary-color);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+.nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+  line-height: 84px;
+}
+.nav ul {
+  padding: 0;
+}
+.nav a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.active {
+  color: var(--secondary-color) !important;
+}
+.hi-link {
+  color: var(--primary-color);
 }
 
+.project-section {
+  margin-top: 50px;
+}
+.project-section img {
+  border-radius: 10px;
+}
 .content-container {
-  padding: 160px 20px;
+  padding: 0px 0px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -52,21 +80,21 @@ img {
 }
 
 p {
+  font-size: 17px;
   text-align: justify;
   line-height: 2;
 }
 @media (max-width: 1000px) {
-  .project-section {
-    padding: 0;
+  p {
     text-align: center;
   }
-  .content-container {
+  .container {
     text-align: center;
-    padding: 50px;
   }
   .headshot {
     height: 400px;
     padding: 0px;
     margin-top: 50px;
+    text-align: center;
   }
 }

@@ -53,15 +53,13 @@ a:hover {
 }
 
 .headshot {
-  height: 440px;
-  padding: 50px;
-  margin-top: 140px;
+  margin-top: 114px;
+  padding: 0px 0px 0px 50px;
 }
 
 .img-fluid {
-  min-width: 100%;
+  max-width: 69%;
   height: auto;
-  margin-top: 23px;
 }
 
 p {
@@ -69,8 +67,17 @@ p {
   line-height: 2;
   padding: 20px 0px 20px 0px;
 }
+.p-about {
+  font-size: 17px;
+  line-height: 2;
+  padding: 20px 0px 20px 0px;
+  text-align: justify;
+}
+
 h2 a {
   color: var(--primary-color);
+  font-size: 30px;
+  line-height: 2.5;
 }
 
 .contact-mail {
@@ -81,14 +88,27 @@ h2 a {
   line-height: 2.5;
   text-align: center;
 }
+.mail-contact {
+  font-size: 17px;
+  padding: 10px 0px;
+  margin: 0;
+}
 .social-links a {
   margin: 0px 0px 0px 15px;
   font-size: 18px;
   line-height: 2.2;
 }
+.social-links-contact a {
+  margin: 0px 15px 0px 0px;
+  font-size: 30px;
+}
 .icons {
   text-align: right;
 }
+.icons-contact {
+  padding: 0;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 75px;
@@ -104,19 +124,17 @@ h2 a {
     font-size: 30px;
     text-align: right;
   }
-  .img-fluid {
-    margin-top: 20px;
+
+  .headshot-align {
+    text-align: center;
   }
   .headshot {
-    height: 400px;
     padding: 0px;
-    margin-top: 50px;
+    margin-top: 0px;
     text-align: center;
   }
   h2 {
     text-align: center;
-    font-size: 65px;
-    padding-top: 10px;
   }
   p,
   .icons {

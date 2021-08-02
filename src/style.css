@@ -94,7 +94,7 @@ h2 a {
     font-size: 75px;
   }
   .work-situation {
-    font-size: 37px;
+    font-size: 30px;
     text-align: left;
     padding-bottom: 10px;
   }
@@ -124,12 +124,12 @@ h2 a {
     padding: 0px;
   }
   .contact-mail {
-    font-size: 37px;
+    font-size: 30px;
     line-height: 2.5;
     padding-bottom: 0;
   }
   .social-links a {
-    font-size: 55px;
-    margin: 0px 25px 0px 25px;
+    font-size: 40px;
+    margin: 0px 20px 0px 20px;
   }
 }

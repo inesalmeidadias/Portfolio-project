@@ -67,7 +67,7 @@ a:hover {
 p {
   font-size: 17px;
   line-height: 2;
-  padding: 0px 0px 20px 0px;
+  padding: 20px 0px 20px 0px;
 }
 h2 a {
   color: var(--primary-color);
@@ -75,17 +75,16 @@ h2 a {
 
 .contact-mail {
   font-size: 17px;
-  line-height: 2.5;
 }
 .mail {
   font-size: 17px;
-  line-height: 2;
+  line-height: 2.5;
   text-align: center;
 }
 .social-links a {
   margin: 0px 0px 0px 15px;
   font-size: 18px;
-  line-height: 3;
+  line-height: 2.2;
 }
 .icons {
   text-align: right;

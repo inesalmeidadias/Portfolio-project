@@ -190,6 +190,12 @@ h2 a {
     text-align: center;
     padding: 0px;
   }
+  .p-about {
+    font-size: 25px;
+  }
+  li {
+    font-size: 25px;
+  }
   .contact-mail {
     font-size: 30px;
     line-height: 2.5;
@@ -198,5 +204,8 @@ h2 a {
   .social-links a {
     font-size: 40px;
     margin: 0px 20px 0px 20px;
+  }
+  .thumbnail-align {
+    font-size: 30px;
   }
 }

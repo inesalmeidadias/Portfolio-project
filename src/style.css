@@ -67,6 +67,17 @@ p {
   line-height: 2;
   padding: 20px 0px 20px 0px;
 }
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+  font-size: 17px;
+  line-height: 2;
+  padding: 0px;
+  margin: 0;
+}
 .p-about {
   font-size: 17px;
   line-height: 2;
@@ -109,6 +120,40 @@ h2 a {
   padding: 0;
 }
 
+.project-thumbnail {
+  border-radius: 2%;
+}
+.block {
+  position: relative;
+}
+.overlay {
+  background: rgba(0, 0, 0, 1);
+  border-radius: 2%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease;
+}
+
+.block:hover .overlay {
+  opacity: 1;
+  transition: 250ms ease-in-out;
+}
+
+.thumbnail {
+  color: white;
+}
+.thumbnail:hover {
+  color: var(--secondary-color);
+  transition: 250ms ease-in-out;
+}
+.text-center {
+  margin-top: 50%;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 75px;
@@ -124,7 +169,10 @@ h2 a {
     font-size: 30px;
     text-align: right;
   }
-
+  .project-thumbnail {
+    margin: 10px 0px;
+    height: 700px;
+  }
   .headshot-align {
     text-align: center;
   }

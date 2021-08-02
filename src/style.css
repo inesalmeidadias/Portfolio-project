@@ -150,8 +150,9 @@ h2 a {
   color: var(--secondary-color);
   transition: 250ms ease-in-out;
 }
-.text-center {
+.thumbnail-align {
   margin-top: 50%;
+  text-align: center;
 }
 
 @media (max-width: 992px) {
